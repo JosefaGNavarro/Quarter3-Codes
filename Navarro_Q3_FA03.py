@@ -18,7 +18,6 @@ for s in range(len(Students)):
 for i in range(len(Subjects)):
     total = sum(Scores[i])
     print(Subjects[i], "Total:", total)
-    print()
 print()
 
 #averages
@@ -32,3 +31,4 @@ print("Highest score (overall):", max(map(max, Scores)))
 print("Lowest score (overall):", min(map(min, Scores)))
 
 print()
+
